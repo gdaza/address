@@ -14,7 +14,7 @@ namespace appAddress.Models
         
         public int BookID { get; set; }
         public string Name { get; set; }
-        public TypeContact MyProperty { get; set; } 
+        public TypeContact type { get; set; } 
         public string Contact { get; set; }
     }
 }
